@@ -29,7 +29,7 @@
   "provisioners": [
     {
       "type": "chef-solo",
-      "cookbook_paths": ["."],
+      "cookbook_paths": ["../"],
       "run_list":["python::default"]
     },
     {
