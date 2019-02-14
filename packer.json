@@ -31,15 +31,6 @@
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
       "run_list":["python::default"]
-    },
-    {
-      "type": "shell",
-      "inline": ["mkdir /home/ubuntu/Python-Environment"]
-    },
-    {
-      "type": "file",
-      "source": "./",
-      "destination": "home/ubuntu/Python-Environment"
     }
   ]
 }
